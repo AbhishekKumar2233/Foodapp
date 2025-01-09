@@ -5,7 +5,7 @@ function navbar({filterItem, menuList}) {
       <>
           <nav className="navbar">
             <div className="btn-group">
-             {menuList.map((curElem) => {
+             {menuList?.map((curElem) => {
                     return(
                         <button 
                         className="btn-group__item" 
